@@ -17,7 +17,7 @@ public class SearchTest {
 
     @Test
     void successfulSearchTest() {
-        open("https://google.com"); // открыть google
+        open("https://yandex.ru"); // открыть google
 
         $("textarea[name=q]").setValue("selenide").pressEnter(); // ввести в поле поиска selenide
 
